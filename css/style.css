@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(189, 82%, 80%)
+}
+
+main {
+    margin: 0px 20px;
+    background-color: #ffffffcc;
+    border-radius: 0px 0px 15px 15px;
+    height: 80vh;
+    overflow: scroll;
+}
+
+main p{
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: auto;
+    border-bottom: 2px solid hsl(0, 0%, 35%);
+    background-color: #ffffffcc
+}
+
+nav div {
+    padding: 10px;
+}
+
+.active-nav {
+    background-color: #93ffffcc;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav div:hover, nav a:hover {
+    background-color: #ffffffee;
+}
+
+nav a, nav a:visited {
+    color: #000000aa;
+}
+
+.index-h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #000000cc;
+    padding-top: 10px;
+}
+
+.horizontal-rule-1 {
+    border: 1px solid #000000;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* ###### Page Styling ###### */
+
+/* About styling */
+
+.headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40%;
+    border-radius: 50%;
+    border: 5px solid #93ffff77;
+}
+
+/* Contact Me styling */
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px;
+}
+
+input, textarea {
+    border: 2px solid #00b8b8;
+    border-radius: 6px;
+    margin: 5px 10px;
+}
+
+.submit-button {
+    align-self: center;
+}

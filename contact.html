@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/TJ-FaviconOly.png">
+    <title>Contact Me!</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div><a href="./index.html">Index</a></div>
+            <div><a href="./about.html">About</a></div>
+            <div><a href="./projects.html">Projects</a></div>
+            <div class="active-nav"><a href="./contact.html">Contact Me</a></div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="index-h1">Contact Me!</h1>
+        <p>If you have comments, suggestions or feedback, please leave me a message using this form!</p>
+        <form method="post" name="contact_form" action="contact-form-handler.php">
+            <fieldset>
+                <label for="form-name">Your Name:</label>
+                <input type="text" id="form-name" name="name" required>
+                
+                <label for="form-email">Email Address:</label>
+                <input type="text" id="form-email" name="email" required>
+
+                <label for="form-message">Message:</label>
+                <textarea id="form-message" name="message" required></textarea>
+                <input type="submit" class="submit-button" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<script>document.write(new Date().getFullYear())</script> Joel Shull</p>
+        <p>University of Michigan | School of Information</p>
+        <p>Bachelor's of Information | Information Analysis</p>
+    </footer>
+</body>
+</html>
